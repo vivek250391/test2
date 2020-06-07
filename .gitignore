@@ -1,9 +1,9 @@
-.vs/WebApplication1
+.vs/WebApplication1/
 *.dll
 *.dll
 *.pdb
 *.cache
-WebApplication1/bin
-WebApplication1/obj
-WebApplication1/Properties
+WebApplication1/bin/
+WebApplication1/obj/
+WebApplication1/Properties/
 
