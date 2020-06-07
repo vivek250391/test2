@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IgHJfYJ2SzD5ta0G6c9KIpp3fPL5M7JH83iA8Q/6NWkYMyJCPw22uDugPayobL8/MrTnX44dF/524RhxXnnV4Q==",
+  "dgSpecHash": "dSAnkjrPbbzmho0LGoe8nt4O476fGUw2STgiwHG1oB5RXC/ZHKnOmBdPYhlSfU64wy8zLuMA6nhHVREyLRkCDQ==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\github\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -111,7 +111,8 @@
     "C:\\Users\\vivek\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\vivek\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

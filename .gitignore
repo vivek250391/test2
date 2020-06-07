@@ -1,8 +1,9 @@
-.vs/
+*.exe
 *.dll
 *.dll
 *.pdb
 *.cache
+.vs/
 bin/
 obj/
 Properties/
