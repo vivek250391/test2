@@ -3,8 +3,8 @@
 *.dll
 *.pdb
 *.cache
-.vs/
-bin/
-obj/
-Properties/
+.vs/*
+bin/*
+obj/*
+Properties/*
 
