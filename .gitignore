@@ -4,6 +4,6 @@
 *.pdb
 *.cache
 .vs/*
-WebApplication1/bin/*
-WebApplication1/obj/*
-WebApplication1/Properties/*
+**/bin/
+**/obj/
+**/Properties/*
