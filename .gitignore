@@ -7,7 +7,3 @@
 WebApplication1/bin/*
 WebApplication1/obj/*
 WebApplication1/Properties/*
-
-.vs/WebApplication1/v16/.suo
-*.cache
-*.exe
