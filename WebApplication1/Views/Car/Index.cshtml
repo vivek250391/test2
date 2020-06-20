@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using WebApplication1.Database.Entities
+@model List<Car> 
+
+<h1>Index Page</h1>
+
+@foreach(Car car in Model)
+        {
+    <div class="card col-4">
+        <div class="card-header">@car.Model</div>
+        <div class="card-text">@car.Manufacturer.</div>
+    </div>
+    }
+

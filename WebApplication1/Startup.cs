@@ -5,10 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WebApplication1.Contracts;
+using WebApplication1.Database.Repository;
+using WebApplication1.Services;
 using WebApplication1.Utility;
 
 namespace WebApplication1
@@ -26,6 +29,10 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<ICarRepository, CarRepository>();
+            services.AddTransient<ICarService, CarService>();
+            services.AddDbContext<Database.AppContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("CarContext")));
             services.AddTransient<IProduct, Product>();
         }
 
